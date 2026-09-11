@@ -1,3 +1,6 @@
+
+![CI](https://github.com/calson404/devops-intern-final/actions/workflows/ci.yml/badge.svg)
+
 # devops-intern-final
 
 End-to-end deployment pipeline for a containerised NGINX application:
