@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DevOps Intern Final - NGINX</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 640px;
+               margin: 4rem auto; padding: 0 1rem; color: #1a1a1a; }
+        h1 { border-bottom: 2px solid #333; padding-bottom: .5rem; }
+        dl { display: grid; grid-template-columns: max-content 1fr;
+             gap: .5rem 1.5rem; }
+        dt { font-weight: 600; color: #555; }
+        code { background: #f3f3f3; padding: .15rem .35rem; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>DevOps Intern Final Assessment</h1>
+    <dl>
+        <dt>Author</dt>       <dd>BABILA CALSON</dd>
+        <dt>Date</dt>         <dd>2026-09-11</dd>
+        <dt>Build</dt>        <dd><code>__BUILD_SHA__</code></dd>
+        <dt>Hostname</dt>     <dd id="host">-</dd>
+    </dl>
+    <p>Served by NGINX as a non-root user on port 8080.</p>
+    <script>
+        // Avoids an extra fetch; purely cosmetic.
+        document.getElementById('host').textContent = location.host;
+    </script>
+</body>
+</html>
