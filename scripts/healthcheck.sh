@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# healthcheck.sh — verify a running application returns HTTP 200.
+# healthcheck.sh - verify a running application returns HTTP 200.
 #
 # Usage:
 #   ./healthcheck.sh [URL]
