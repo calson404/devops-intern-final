@@ -1,0 +1,28 @@
+# IDE / editor metadata
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+dist/
+build/
+tmp/
+
+# Secrets and credentials — never commit
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Terraform / Nomad local state
+*.tfstate
+*.tfstate.*
+.terraform/
