@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# sysinfo.sh — report host environment details.
+# sysinfo.sh - report host environment details.
 # Part of the DevOps Intern Final Assessment (Task 2).
 #
 set -euo pipefail
